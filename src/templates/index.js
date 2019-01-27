@@ -138,7 +138,7 @@ class IndexPage extends React.Component {
               <div className="container">
                 <header className="major">
                   <h2>Nando Theessen</h2>
-                  <p>Leader, Communicator & Software Engineer</p>
+                  <p>Software Engineer, Leader and great Communicator.</p>
                 </header>
                 <p>
                   Nando's greatest strengths are his outgoing personality, his
