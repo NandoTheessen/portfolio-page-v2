@@ -276,9 +276,9 @@ class IndexPage extends React.Component {
               <div className="container">
                 <h3>Relevant Skills</h3>
                 <p>
-                  My main focus when it comes to technologies lies on having
-                  very good fundamental knowledge. This allows me to pick up any
-                  new and trendy technologies very quickly and come to a deep
+                  My main focus when it comes to engineering lies on having very
+                  good fundamental knowledge. This allows me to pick up any new
+                  and trendy technologies very quickly and come to a deep
                   understanding in a short amount of time.
                 </p>
                 <ul className="feature-icons">
@@ -295,8 +295,11 @@ class IndexPage extends React.Component {
                   <li className="fa-book">
                     Loves to learn from and share knowledge with peers
                   </li>
-                  <li className="fa-bolt">
+                  <li className="fa-users">
                     Unify teams under company goals and guidelines
+                  </li>
+                  <li className="fa-git-square">
+                    Familiar with git workflow and able to follow best practices
                   </li>
                 </ul>
               </div>
