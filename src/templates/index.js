@@ -276,10 +276,10 @@ class IndexPage extends React.Component {
               <div className="container">
                 <h3>Relevant Skills</h3>
                 <p>
-                  My main focus when it comes to engineering lies on having very
-                  good fundamental knowledge. This allows me to pick up any new
-                  and trendy technologies very quickly and come to a deep
-                  understanding in a short amount of time.
+                  Nando's main focus when it comes to engineering lies on having
+                  very good fundamental knowledge. This allows him to pick up
+                  any new and trendy technologies very quickly and come to a
+                  deep understanding in a short amount of time.
                 </p>
                 <ul className="feature-icons">
                   <li className="fa-code">
