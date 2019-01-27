@@ -1,0 +1,5 @@
+[[redirects]]
+  from = "https://suspicious-feynman-56d07b.netlify.com/*"
+  to = "https://www.nando.codes/:splat"
+  status = 301
+  force = true
