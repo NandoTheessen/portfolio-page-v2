@@ -34,7 +34,7 @@ class IndexPage extends React.Component {
             <h1 id="logo">
               <a href="/">Nando Theessen</a>
             </h1>
-            <p>Leader, Communicator and Software Engineer</p>
+            <p>Software Engineer, charismatic Leader and great Communicator.</p>
           </header>
           <nav id="nav">
             <ul>
@@ -141,7 +141,7 @@ class IndexPage extends React.Component {
                   <p>Leader, Communicator & Software Engineer</p>
                 </header>
                 <p>
-                  Nandos greatest strengths are his outgoing personality, his
+                  Nando's greatest strengths are his outgoing personality, his
                   ability to learn new technologies very quickly and his way to
                   seamlessly integrate into a new environment.
                   <br />
@@ -152,7 +152,7 @@ class IndexPage extends React.Component {
                   <br />
                   What makes him a unique candidate is that his experience helps
                   him to prioritize business needs and focus on delivering
-                  amazing product without exploding costs.
+                  amazing product without increasing costs.
                 </p>
               </div>
             </section>
@@ -167,7 +167,12 @@ class IndexPage extends React.Component {
                 </p>
                 <div className="features">
                   <article>
-                    <a href="/" className="image">
+                    <a
+                      href="https://cleanerpos.netlify.com/"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                      className="image"
+                    >
                       <img src={pic01} alt="" />
                     </a>
                     <div className="inner">
@@ -192,6 +197,11 @@ class IndexPage extends React.Component {
                           <span className="label">LiveVersion</span>
                         </a>
                       </h4>
+                      <p style={{ marginBlockEnd: '24px' }}>
+                        <span style={{ fontWeight: 'bold' }}>Tech Stack:</span>{' '}
+                        React (Hooks), TypeScript, Emotion, Express, Travis,
+                        webpack, Babel, Jest, Firebase, PostgreSQL, Stripe API
+                      </p>
                       <p>
                         Simplify managing your rental properties through
                         automated assignments for your turnover assistants &
@@ -201,7 +211,11 @@ class IndexPage extends React.Component {
                     </div>
                   </article>
                   <article>
-                    <a href="/" className="image">
+                    <a
+                      rel="noopener noreferrer"
+                      href="https://pairme.netlify.com/"
+                      className="image"
+                    >
                       <img src={pic02} alt="" />
                     </a>
                     <div className="inner">
@@ -228,6 +242,11 @@ class IndexPage extends React.Component {
                         <br />
                         "Best Overall App" @ LambdaSchool Winter Hackathon '18
                       </h4>
+                      <p style={{ marginBlockEnd: '12px' }}>
+                        <span style={{ fontWeight: 'bold' }}>Tech Stack:</span>{' '}
+                        React, Redux, Emotion, Express, webpack, Jest,
+                        PostgreSQL, Slack API
+                      </p>
                       <p>
                         Automatically connect your mentors and mentees to ramp
                         up your onboarding & talent development using the slack
@@ -255,27 +274,29 @@ class IndexPage extends React.Component {
             {/* <!-- Two --> */}
             <section id="two">
               <div className="container">
-                <h3>Things I Can Do</h3>
+                <h3>Relevant Skills</h3>
                 <p>
-                  Integer eu ante ornare amet commetus vestibulum blandit
-                  integer in curae ac faucibus integer non. Adipiscing cubilia
-                  elementum integer lorem ipsum dolor sit amet.
+                  My main focus when it comes to technologies lies on having
+                  very good fundamental knowledge. This allows me to pick up any
+                  new and trendy technologies very quickly and come to a deep
+                  understanding in a short amount of time.
                 </p>
                 <ul className="feature-icons">
                   <li className="fa-code">
-                    Engineer web applications from front to back using relevant
-                    technologies
+                    Excellent knowledge of JavaScript, fundamentals in Python &
+                    C
                   </li>
                   <li className="fa-cubes">
-                    Use adequate tooling to automate time-consuming tasks
+                    Good grasp of the JavaScript ecosystem and relevant tools
+                  </li>
+                  <li className="fa-code">
+                    Strong advocate for testing best practices & code review
                   </li>
                   <li className="fa-book">
-                    Rapidly learn new concepts & tech as well as pass on my
-                    knowledge
+                    Loves to learn from and share knowledge with peers
                   </li>
-                  <li className="fa-bolt">Optimize processes to stay agile</li>
-                  <li className="fa-users">
-                    Unify teams under the company goals and guidelines
+                  <li className="fa-bolt">
+                    Unify teams under company goals and guidelines
                   </li>
                 </ul>
               </div>
@@ -287,7 +308,7 @@ class IndexPage extends React.Component {
                 <h3>Contact Me</h3>
                 <p>
                   If you'd like to get in touch for business enquiries or simply
-                  a chat about anything really, please contact me using any of
+                  a chat about anything at all, please contact me using any of
                   the tools below:
                 </p>
                 <ul
@@ -350,7 +371,6 @@ class IndexPage extends React.Component {
           </section>
         </div>
         <div id="titleBar" onClick={this.toggleMenu}>
-          {/* // eslint-disable-next-line */}
           <a href="#header" className="toggle" />
           <span className="title">Nando Theessen</span>
         </div>
