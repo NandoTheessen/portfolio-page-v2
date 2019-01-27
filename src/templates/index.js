@@ -53,25 +53,25 @@ class IndexPage extends React.Component {
               <li>
                 <ScrollLink
                   activeClass="active"
-                  to="two"
-                  spy={true}
-                  smooth={true}
-                  offset={50}
-                  duration={500}
-                >
-                  Things I Can Do
-                </ScrollLink>
-              </li>
-              <li>
-                <ScrollLink
-                  activeClass="active"
                   to="three"
                   spy={true}
                   smooth={true}
                   offset={50}
                   duration={500}
                 >
-                  A Few Accomplishments
+                  My Work
+                </ScrollLink>
+              </li>
+              <li>
+                <ScrollLink
+                  activeClass="active"
+                  to="two"
+                  spy={true}
+                  smooth={true}
+                  offset={50}
+                  duration={500}
+                >
+                  Skills
                 </ScrollLink>
               </li>
               <li>

@@ -5,8 +5,8 @@ var sitePlugins = [
   {
     resolve: `gatsby-plugin-manifest`,
     options: {
-      name: 'gatsby-starter-default',
-      short_name: 'starter',
+      name: 'Nando Theessen',
+      short_name: 'Nando Theessen',
       start_url: '/',
       background_color: '#663399',
       theme_color: '#663399',
@@ -24,8 +24,8 @@ gtk.loadPlugins().forEach(plugin => {
 module.exports = {
   pathPrefix: process.env.CI ? `/story` : `/`,
   siteMetadata: {
-    author: 'You!',
-    title: `Gatsby theme starter`,
+    author: 'Nando Theessen',
+    title: `Nando Theessen`,
   },
   plugins: sitePlugins,
 }
