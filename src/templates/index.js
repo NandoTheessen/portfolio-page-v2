@@ -145,14 +145,14 @@ class IndexPage extends React.Component {
                   ability to learn new technologies very quickly and his way to
                   seamlessly integrate into a new environment.
                   <br />
-                  With his ample leadership experience he takes pride in working
-                  for and with teams to help them realize their full potential
-                  and deliver on the companies goals.
+                  With his four years of leadership experience he takes pride in
+                  working for and with teams to help them realize their full
+                  potential and deliver on the companies goals.
                   <br />
                   <br />
                   What makes him a unique candidate is that his experience helps
-                  him to prioritize business needs over nice-to-haves and focus
-                  on delivering amazing product without exploding costs.
+                  him to prioritize business needs and focus on delivering
+                  amazing product without exploding costs.
                 </p>
               </div>
             </section>
