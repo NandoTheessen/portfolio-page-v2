@@ -162,9 +162,8 @@ class IndexPage extends React.Component {
               <div className="container">
                 <h3>My Work</h3>
                 <p>
-                  Throughout my time at LambdaSchool and in my spare time I've
-                  worked on multiple projects. This is a selection that shows
-                  what I'm most proud of and displays the most amount of skill.
+                  A selection of the projects I've tackled over the last couple
+                  of months.
                 </p>
                 <div className="features">
                   <article>
