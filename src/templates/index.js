@@ -59,7 +59,7 @@ class IndexPage extends React.Component {
                   to="three"
                   spy={true}
                   smooth={true}
-                  offset={-50}
+                  offset={0}
                   duration={500}
                 >
                   My Work
@@ -71,7 +71,7 @@ class IndexPage extends React.Component {
                   to="two"
                   spy={true}
                   smooth={true}
-                  offset={-50}
+                  offset={0}
                   duration={500}
                 >
                   Skills
@@ -83,7 +83,7 @@ class IndexPage extends React.Component {
                   to="four"
                   spy={true}
                   smooth={true}
-                  offset={-50}
+                  offset={0}
                   duration={500}
                 >
                   Contact
