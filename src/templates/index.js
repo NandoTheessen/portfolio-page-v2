@@ -34,7 +34,7 @@ class IndexPage extends React.Component {
             <h1 id="logo">
               <a href="/">Nando Theessen</a>
             </h1>
-            <p>Software Engineer, charismatic Leader and great Communicator.</p>
+            <p>Software Engineer, Charismatic Leader and Great Communicator.</p>
           </header>
           <nav id="nav">
             <ul>
@@ -44,7 +44,7 @@ class IndexPage extends React.Component {
                   to="one"
                   spy={true}
                   smooth={true}
-                  offset={50}
+                  offset={0}
                   duration={500}
                 >
                   About
@@ -56,7 +56,7 @@ class IndexPage extends React.Component {
                   to="three"
                   spy={true}
                   smooth={true}
-                  offset={50}
+                  offset={-50}
                   duration={500}
                 >
                   My Work
@@ -68,7 +68,7 @@ class IndexPage extends React.Component {
                   to="two"
                   spy={true}
                   smooth={true}
-                  offset={50}
+                  offset={-50}
                   duration={500}
                 >
                   Skills
@@ -80,7 +80,7 @@ class IndexPage extends React.Component {
                   to="four"
                   spy={true}
                   smooth={true}
-                  offset={50}
+                  offset={-50}
                   duration={500}
                 >
                   Contact
@@ -138,7 +138,10 @@ class IndexPage extends React.Component {
               <div className="container">
                 <header className="major">
                   <h2>Nando Theessen</h2>
-                  <p>Software Engineer, Leader and great Communicator.</p>
+                  <p>
+                    Software Engineer, Charismatic Leader and Great
+                    Communicator.
+                  </p>
                 </header>
                 <p>
                   Nando's greatest strengths are his outgoing personality, his
@@ -311,9 +314,62 @@ class IndexPage extends React.Component {
                 <h3>Contact Me</h3>
                 <p>
                   If you'd like to get in touch for business enquiries or simply
-                  a chat about anything at all, please contact me using any of
-                  the tools below:
+                  a chat about anything at all, please send me an email or
+                  contact me using any of the tools below:
                 </p>
+                <form
+                  method="post"
+                  action="https://formspree.io/nando.theessen@gmail.com"
+                >
+                  <div className="row gtr-uniform">
+                    <div className="col-6 col-12-xsmall">
+                      <input
+                        type="text"
+                        name="name"
+                        id="name"
+                        placeholder="Name"
+                      />
+                    </div>
+                    <div className="col-6 col-12-xsmall">
+                      <input
+                        type="email"
+                        name="email"
+                        id="email"
+                        placeholder="Email"
+                      />
+                    </div>
+                    <div className="col-12">
+                      <input
+                        type="text"
+                        name="subject"
+                        id="subject"
+                        placeholder="Subject"
+                      />
+                    </div>
+                    <div className="col-12">
+                      <textarea
+                        name="message"
+                        id="message"
+                        placeholder="Message"
+                        rows="6"
+                      />
+                    </div>
+                    <div className="col-12">
+                      <ul className="actions">
+                        <li>
+                          <input
+                            type="submit"
+                            className="primary"
+                            value="Send Message"
+                          />
+                        </li>
+                        <li>
+                          <input type="reset" value="Reset Form" />
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </form>
                 <ul
                   className="icons"
                   style={{
