@@ -34,7 +34,10 @@ class IndexPage extends React.Component {
             <h1 id="logo">
               <a href="/">Nando Theessen</a>
             </h1>
-            <p>Software Engineer, Charismatic Leader and Great Communicator.</p>
+            <p>
+              Charismatic Software Engineer with Strong Leadership Skills and a
+              Passion for Mentoring
+            </p>
           </header>
           <nav id="nav">
             <ul>
@@ -139,8 +142,8 @@ class IndexPage extends React.Component {
                 <header className="major">
                   <h2>Nando Theessen</h2>
                   <p>
-                    Software Engineer, Charismatic Leader and Great
-                    Communicator.
+                    Charismatic Software Engineer with Strong Leadership Skills
+                    and a Passion for Mentoring
                   </p>
                 </header>
                 <p>
