@@ -317,8 +317,8 @@ class IndexPage extends React.Component {
                 <h3>Contact Me</h3>
                 <p>
                   If you'd like to get in touch for business enquiries or simply
-                  a chat about anything at all, please send me an email or
-                  contact me using any of the tools below:
+                  a chat about anything at all, please send an email or use any
+                  of the tools below:
                 </p>
                 <form
                   method="post"
