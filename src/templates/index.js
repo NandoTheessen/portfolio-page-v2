@@ -97,6 +97,8 @@ class IndexPage extends React.Component {
                 <a
                   href="https://twitter.com/NandoTCodes"
                   className="icon fa-twitter"
+                  rel="noopener norefferer"
+                  target="blank"
                 >
                   <span className="label">Twitter</span>
                 </a>
@@ -105,6 +107,8 @@ class IndexPage extends React.Component {
                 <a
                   href="https://github.com/NandoTheessen/"
                   className="icon fa-github"
+                  rel="noopener norefferer"
+                  target="blank"
                 >
                   <span className="label">GitHub</span>
                 </a>
@@ -113,6 +117,8 @@ class IndexPage extends React.Component {
                 <a
                   href="https://www.linkedin.com/in/nandotheessen/?locale=en_US"
                   className="icon fa-linkedin"
+                  rel="noopener norefferer"
+                  target="blank"
                 >
                   <span className="label">LinkedIn</span>
                 </a>
@@ -121,6 +127,8 @@ class IndexPage extends React.Component {
                 <a
                   href="mailto:nando.theessen@gmail.com"
                   className="icon fa-envelope"
+                  rel="noopener norefferer"
+                  target="blank"
                 >
                   <span className="label">Email</span>
                 </a>
@@ -176,7 +184,7 @@ class IndexPage extends React.Component {
                     <a
                       href="https://cleanerpos.netlify.com/"
                       rel="noopener noreferrer"
-                      target="_blank"
+                      target="blank"
                       className="image"
                     >
                       <img src={pic01} alt="" />
@@ -186,7 +194,7 @@ class IndexPage extends React.Component {
                         Cleaner Point of Sale
                         <a
                           rel="noopener noreferrer"
-                          target="_blank"
+                          target="blank"
                           style={{ marginLeft: '6px' }}
                           href="https://github.com/Lambda-School-Labs/labs9-cleaner-pos"
                           className="icon fa-github"
@@ -197,7 +205,7 @@ class IndexPage extends React.Component {
                           style={{ marginLeft: '6px' }}
                           href="https://cleanerpos.netlify.com/"
                           rel="noopener noreferrer"
-                          target="_blank"
+                          target="blank"
                           className="icon fa-globe"
                         >
                           <span className="label">LiveVersion</span>
@@ -219,6 +227,7 @@ class IndexPage extends React.Component {
                   <article>
                     <a
                       rel="noopener noreferrer"
+                      target="blank"
                       href="https://pairme.netlify.com/"
                       className="image"
                     >
@@ -230,7 +239,7 @@ class IndexPage extends React.Component {
                         <a
                           style={{ marginLeft: '6px' }}
                           rel="noopener noreferrer"
-                          target="_blank"
+                          target="blank"
                           href="https://github.com/NandoTheessen/Pair-Me-LS-Winter-Hakathon-Submission"
                           className="icon fa-github"
                         >
@@ -240,7 +249,7 @@ class IndexPage extends React.Component {
                           style={{ marginLeft: '6px' }}
                           rel="noopener noreferrer"
                           href="https://pairme.netlify.com/"
-                          target="_blank"
+                          target="blank"
                           className="icon fa-globe"
                         >
                           <span className="label">LiveVersion</span>
@@ -385,6 +394,8 @@ class IndexPage extends React.Component {
                     <a
                       href="https://twitter.com/NandoTCodes"
                       className="icon fa-twitter"
+                      ref="noopener norefferer"
+                      target="blank"
                     >
                       <span className="label">Twitter</span>
                     </a>
@@ -393,6 +404,8 @@ class IndexPage extends React.Component {
                     <a
                       href="https://github.com/NandoTheessen/"
                       className="icon fa-github"
+                      ref="noopener norefferer"
+                      target="blank"
                     >
                       <span className="label">GitHub</span>
                     </a>
@@ -401,6 +414,8 @@ class IndexPage extends React.Component {
                     <a
                       href="https://www.linkedin.com/in/nandotheessen/?locale=en_US"
                       className="icon fa-linkedin"
+                      ref="noopener norefferer"
+                      target="blank"
                     >
                       <span className="label">LinkedIn</span>
                     </a>
@@ -426,14 +441,25 @@ class IndexPage extends React.Component {
               <ul className="copyright">
                 <li>&copy; Nando Theessen. All rights reserved.</li>
                 <li>
-                  Design: <a href="http://html5up.net">HTML5 UP</a>
+                  Design:{' '}
+                  <a
+                    ref="noopener norefferer"
+                    target="blank"
+                    href="http://html5up.net"
+                  >
+                    HTML5 UP
+                  </a>
                 </li>
               </ul>
             </div>
           </section>
         </div>
         <div id="titleBar" onClick={this.toggleMenu}>
-          <a href="#header" className="toggle" />
+          <a href="#header" className="toggle">
+            <span style={{ display: 'none' }} className="label">
+              menutoggle
+            </span>
+          </a>
           <span className="title">Nando Theessen</span>
         </div>
       </Layout>
