@@ -7,6 +7,8 @@ import pic02 from '../images/pic02.jpg'
 // import pic03 from '../images/pic03.jpg'
 
 import Layout from '../components/layout'
+import AboutMe from '../components/aboutMe'
+import Experience from '../components/experiences'
 import * as Scroll from 'react-scroll'
 
 import '../sass/main.scss'
@@ -35,8 +37,7 @@ class IndexPage extends React.Component {
               <a href="/">Nando Theessen</a>
             </h1>
             <p>
-              Charismatic Software Engineer with Strong Leadership Skills and a
-              Passion for Mentoring
+              Charismatic Software Engineer, fantastic Communicator & Leader.
             </p>
           </header>
           <nav id="nav">
@@ -56,19 +57,19 @@ class IndexPage extends React.Component {
               <li>
                 <ScrollLink
                   activeClass="active"
-                  to="three"
+                  to="two"
                   spy={true}
                   smooth={true}
                   offset={0}
                   duration={500}
                 >
-                  My Work
+                  Experience
                 </ScrollLink>
               </li>
               <li>
                 <ScrollLink
                   activeClass="active"
-                  to="two"
+                  to="three"
                   spy={true}
                   smooth={true}
                   offset={0}
@@ -86,6 +87,18 @@ class IndexPage extends React.Component {
                   offset={0}
                   duration={500}
                 >
+                  Side Projects
+                </ScrollLink>
+              </li>
+              <li>
+                <ScrollLink
+                  activeClass="active"
+                  to="five"
+                  spy={true}
+                  smooth={true}
+                  offset={0}
+                  duration={500}
+                >
                   Contact
                 </ScrollLink>
               </li>
@@ -95,7 +108,7 @@ class IndexPage extends React.Component {
             <ul className="icons">
               <li>
                 <a
-                  href="https://twitter.com/NandoTCodes"
+                  href="https://twitter.com/NandoTheessen"
                   className="icon fa-twitter"
                   rel="noopener norefferer"
                   target="blank"
@@ -146,35 +159,49 @@ class IndexPage extends React.Component {
               <div className="image main" data-position="center">
                 <img src={banner} alt="" />
               </div>
+              <AboutMe/>
+            </section>
+
+            <section id="two">
+              <Experience/>
+            </section>
+            <section id="three">
               <div className="container">
-                <header className="major">
-                  <h2>Nando Theessen</h2>
-                  <p>
-                    Charismatic Software Engineer with Strong Leadership Skills
-                    and a Passion for Mentoring
-                  </p>
-                </header>
+                <h3>Relevant Skills</h3>
                 <p>
-                  Nando's greatest strengths are his outgoing personality, his
-                  ability to learn new technologies very quickly and his way to
-                  seamlessly integrate into a new environment.
-                  <br />
-                  With his four years of leadership experience he takes pride in
-                  working for and with teams to help them realize their full
-                  potential and deliver on the companies goals.
-                  <br />
-                  <br />
-                  What makes him a unique candidate is that his experience helps
-                  him to prioritize business needs and focus on delivering
-                  amazing product without increasing costs.
+                  Nando's main focus when it comes to engineering lies on having
+                  very good fundamental knowledge. This allows him to pick up
+                  any new and trendy technologies very quickly and come to a
+                  deep understanding in a short amount of time.
                 </p>
+                <ul className="feature-icons">
+                  <li className="fa-code">
+                    Excellent knowledge of JavaScript, fundamentals in Python &
+                    C
+                  </li>
+                  <li className="fa-cubes">
+                    Good grasp of the JavaScript ecosystem and relevant tools
+                  </li>
+                  <li className="fa-code">
+                    Strong advocate for testing best practices & code review
+                  </li>
+                  <li className="fa-book">
+                    Loves to learn from and share knowledge with peers
+                  </li>
+                  <li className="fa-users">
+                    Unify teams under company goals and guidelines
+                  </li>
+                  <li className="fa-git-square">
+                    Familiar with git workflow and able to follow best practices
+                  </li>
+                </ul>
               </div>
             </section>
 
             {/* <!-- Three --> */}
-            <section id="three">
+            <section id="four">
               <div className="container">
-                <h3>My Work</h3>
+                <h3>Side Projects</h3>
                 <p>
                   A selection of the projects I've tackled over the last couple
                   of months.
@@ -269,59 +296,12 @@ class IndexPage extends React.Component {
                       </p>
                     </div>
                   </article>
-                  {/* <article>
-                    <a href="/" className="image">
-                      <img src={pic03} alt="" />
-                    </a>
-                    <div className="inner">
-                      <h4>Snapped dark matter in the wild</h4>
-                      <p>
-                        Integer eu ante ornare amet commetus vestibulum blandit
-                        integer in curae ac faucibus integer adipiscing ornare
-                        amet.
-                      </p>
-                    </div>
-                  </article> */}
                 </div>
               </div>
             </section>
 
-            {/* <!-- Two --> */}
-            <section id="two">
-              <div className="container">
-                <h3>Relevant Skills</h3>
-                <p>
-                  Nando's main focus when it comes to engineering lies on having
-                  very good fundamental knowledge. This allows him to pick up
-                  any new and trendy technologies very quickly and come to a
-                  deep understanding in a short amount of time.
-                </p>
-                <ul className="feature-icons">
-                  <li className="fa-code">
-                    Excellent knowledge of JavaScript, fundamentals in Python &
-                    C
-                  </li>
-                  <li className="fa-cubes">
-                    Good grasp of the JavaScript ecosystem and relevant tools
-                  </li>
-                  <li className="fa-code">
-                    Strong advocate for testing best practices & code review
-                  </li>
-                  <li className="fa-book">
-                    Loves to learn from and share knowledge with peers
-                  </li>
-                  <li className="fa-users">
-                    Unify teams under company goals and guidelines
-                  </li>
-                  <li className="fa-git-square">
-                    Familiar with git workflow and able to follow best practices
-                  </li>
-                </ul>
-              </div>
-            </section>
-
             {/* <!-- Four --> */}
-            <section id="four">
+            <section id="five">
               <div className="container">
                 <h3>Contact Me</h3>
                 <p>
@@ -392,7 +372,7 @@ class IndexPage extends React.Component {
                 >
                   <li>
                     <a
-                      href="https://twitter.com/NandoTCodes"
+                      href="https://twitter.com/NandoTheessen"
                       className="icon fa-twitter"
                       ref="noopener norefferer"
                       target="blank"
