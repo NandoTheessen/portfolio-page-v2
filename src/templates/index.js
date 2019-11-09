@@ -169,27 +169,27 @@ class IndexPage extends React.Component {
               <div className="container">
                 <h3>Relevant Skills</h3>
                 <p>
-                  Nando's main focus when it comes to engineering lies on having
+                  Nando's main focus in engineering lies on having
                   very good fundamental knowledge. This allows him to pick up
                   any new and trendy technologies very quickly and come to a
                   deep understanding in a short amount of time.
                 </p>
                 <ul className="feature-icons">
                   <li className="fa-code">
-                    Excellent knowledge of JavaScript, fundamentals in Python &
-                    C
+                    Excellent knowledge of JavaScript, fundamentals in Golang,
+                    Python & C
                   </li>
                   <li className="fa-cubes">
-                    Good grasp of the JavaScript ecosystem and relevant tools
+                    Eperienced in realizing complex CI / CD pipelines
                   </li>
                   <li className="fa-code">
                     Strong advocate for testing best practices & code review
                   </li>
                   <li className="fa-book">
-                    Loves to learn from and share knowledge with peers
+                    Containerization of applications & container orchestration
                   </li>
                   <li className="fa-users">
-                    Unify teams under company goals and guidelines
+                    Ability to unify teams under company goals and guidelines
                   </li>
                   <li className="fa-git-square">
                     Familiar with git workflow and able to follow best practices

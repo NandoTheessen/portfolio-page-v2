@@ -5,12 +5,10 @@ const experiences = [
     {
         name: "Engineering Manager \"DevOps\" - 3YOURMIND GmbH",
         bullet_points: [
-            "Leading the DevOps transformation for the 3YOURMIND organization.",
-            "Mentoring & Support of Teammembers through continouus 1 on 1s.",
-            "Coordination of the DevOps departments Open Source activities.",
-            "Responsbility for personal development of teammembers, salary negotations & educational budgets.",
+           "Support of Team members through continuous one on ones.",
+            "Hands-on style focussed on Infrastructure as Code, Kubernetes & CI/CD.",
+            "Responsibility for personal development of team members, salary negotiations & educational budgets.",
             "Interface for the coordination between Project Management / Development / Product & DevOps.",
-            "Hands on style with a lot of time spent engineering solutions myself.",
         ],
         timeframe: "August 2019 - Now",
         url: "https://3yourmind.com",
