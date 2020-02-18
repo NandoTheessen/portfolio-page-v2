@@ -12,7 +12,7 @@ const experiences = [
         ],
         timeframe: "August 2019 - Now",
         url: "https://3yourmind.com",
-        logo_url: "https://pbs.twimg.com/profile_images/675331891185254400/e7B89k1I_400x400.png"
+        logo_url: "https://pbs.twimg.com/profile_images/1203985787114737665/nCumZsca_400x400.jpg"
       },
       {
         name: "\"DevOps\" Engineer - 3YOURMIND GmbH",
@@ -25,7 +25,7 @@ const experiences = [
         ],
         timeframe: "April 2019 - August 2019",
         url: "https://3yourmind.com",
-        logo_url: "https://pbs.twimg.com/profile_images/675331891185254400/e7B89k1I_400x400.png"
+        logo_url: "https://pbs.twimg.com/profile_images/1203985787114737665/nCumZsca_400x400.jpg"
     },
     {
         name: "Golang Back End Engineer - BuzzBird GmbH",
